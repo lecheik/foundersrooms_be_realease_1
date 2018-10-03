@@ -1,0 +1,113 @@
+[
+{
+"stepName":"IDÉE",
+"description":"",
+"stepNum":0,
+ "completed":false,
+ "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-idee-tab"
+},
+{
+
+"stepName":"ÉTUDE d'OPPORTUNITÉ ET DE VIALBILITÉ",
+"description":"",
+"stepNum":1,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-etude-tab"
+},
+{
+"stepName":"DÉFINITION DU PROJET",
+"description":"",
+"stepNum":2,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-def-tab"
+},
+{
+"stepName":"FINANCEMENT",
+"description":"",
+"stepNum":3,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-finance-tab"
+},
+{
+"stepName":"PLANIFICATION",
+"description":"",
+"stepNum":4,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-plan-tab"
+},
+{
+"stepName":"IMPLÉMENTATION",
+"description":"",
+"stepNum":5,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-implem-tab"
+},
+{
+"stepName":"DÉMO",
+"description":"",
+"stepNum":6,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-demo-tab"
+},
+{
+"stepName":"MISE EN EXPLOITATION / DISTRIBUTION",
+"description":"",
+"stepNum":7,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-mise-tab"
+},
+{
+"stepName":"EXPANSION",
+"description":"",
+"stepNum":8,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-expan-tab"
+},
+{
+"stepName":"CLÔTURE",
+"description":"",
+"stepNum":9,
+ "completed":false,
+  "assignedTaskNumber":0,
+ "completedTaskNumber":0,
+ "taskRatio":0,
+ "stepTasks":[],
+ "tabReference":"v-pills-clot-tab"
+}
+]

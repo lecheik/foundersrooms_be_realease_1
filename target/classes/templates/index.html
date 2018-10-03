@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+  <head>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.1.4/sockjs.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.js"></script>
+  </head>
+
+  <body>
+    <p th:inline="text">
+      You are logged as: <b>[[${#httpServletRequest.remoteUser}]]</b>
+      (<a href="/logout">logout</a>)
+    </p>
+    <p>
+      Click the button below to perform an action.
+      <br />
+      <strong>UserA</strong> will be notified via web socket.
+    </p>
+    <input id="do-some-action" type="button" value="Click me" />
+
+    <!-- Javascript functions -->
+    <script>
+
+      /**
+       * Send an action to the server.
+       */
+      function sendAction(event) {
+        event.preventDefault();
+
+        var search = {
+        	    "to" : "UserA",
+        	    "content" :"hello_man"
+        	    }
+        
+        $.ajax({
+            type: "POST",
+            contentType : 'application/json; charset=utf-8',
+            dataType : 'json',
+            url: "/some-action",
+            data: JSON.stringify(search), // Note it is important without stringifying
+            success :function(result) {
+            // do what ever you want with data
+            }
+            });        
+       /* $.post("/some-action",
+        		{
+        			to:"UserA",
+        			content:"hello_man"
+        		}
+        );*/
+        return;
+      } // function sendAction
+      
+      /**
+       * Init operations.
+       */
+      $(document).ready(function() {
+        
+        // Bind the on-click event for the button element.
+        $("#do-some-action").on("click", sendAction);
+        
+      });
+
+    </script>
+
+  	<br />
+    <hr />
+    Proudly handcrafted by
+    <a href='http://netgloo.com/en'>Netgloo</a>
+
+  </body>
+
+</html>
