@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.foundersrooms.foundersrooms.FoundersroomsApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 95.594 sec - in com.foundersrooms.foundersrooms.FoundersroomsApplicationTests
